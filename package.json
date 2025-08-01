@@ -1,16 +1,31 @@
 {
-  "name": "clubs-ui",
+  "name": "clubs-ui-monorepo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev:docs": "pnpm --filter @clubs-ui/docs dev",
+    "build:docs": "pnpm --filter @clubs-ui/docs build",
+    "dev:play": "pnpm --filter @clubs-ui/play dev",
+    "build:play": "pnpm --filter @clubs-ui/play build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@clubs-ui/docs": "workspace:*",
+    "@clubs-ui/play": "workspace:*",
+    "clubs-ui": "workspace:*",
+    "@clubs-ui/components": "workspace:*",
+    "@clubs-ui/hooks": "workspace:*",
+    "@clubs-ui/utils": "workspace:*",
+    "@clubs-ui/ui": "workspace:*"
+  },
   "devDependencies": {
+    "vite": "^5.3.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.14.2"
   }
 }

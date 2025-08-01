@@ -1,0 +1,33 @@
+{
+    "name": "clubs-ui",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest --coverage"
+    },
+    "keywords": [
+        "react",
+        "components",
+        "clubs-ui",
+        "ui",
+        "library",
+        "design-system",
+        "tailwind",
+        "tailwindcss",
+        "tailwind-css",
+        "tailwind-css-library",
+        "tailwind-css-components",
+        "tailwind-css-design-system",
+        "headlessui",
+        "headless-ui",
+        "headless-ui-library",
+        "headless-ui-components",
+        "headless-ui-design-system"
+      ],
+    "author": "Rooon-K",
+    "license": "ISC",
+    "dependencies": {
+        "@clubs-ui/components": "workspace:*"
+    }
+}

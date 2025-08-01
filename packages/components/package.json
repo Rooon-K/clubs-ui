@@ -1,0 +1,12 @@
+{
+  "name": "@clubs-ui/components",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --coverage"
+  },
+  "keywords": [],
+  "author": "Rooon-K",
+  "license": "ISC"
+}
