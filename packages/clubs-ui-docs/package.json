@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "author": "Shu Ding",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "VERCEL_FORCE_NO_BUILD_CACHE=1 next build",
+    "dev": "next",
+    "postbuild": "next-sitemap && pagefind --site .next/server/app --output-path public/_pagefind",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "next": "^14.0.0",
+    "next-sitemap": "^4.2.3",
+    "nextra": "4.3.0",
+    "nextra-theme-docs": "4.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.1.0",
+    "pagefind": "^1.3.0"
+  }
+}

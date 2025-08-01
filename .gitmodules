@@ -1,0 +1,3 @@
+[submodule "clubs-ui-docs"]
+	path = clubs-ui-docs
+	url = https://github.com/Rooon-K/clubs-ui-docs.git
